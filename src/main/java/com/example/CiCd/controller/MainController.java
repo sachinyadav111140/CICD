@@ -15,6 +15,6 @@ public class MainController {
     @GetMapping( "/hello")
     public ResponseEntity<String> getHello()
     {
-        return new ResponseEntity<>("Hello", HttpStatus.OK);
+        return new ResponseEntity<>("Hello this is vesion 1", HttpStatus.OK);
     }
 }
